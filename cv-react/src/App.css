@@ -41,3 +41,22 @@
   color: red;
   padding: 5px;
 }
+.cmlg{
+  border: 1px solid whitesmoke;
+  max-width: 300px;
+  max-height: 200px;
+  text-align: center;
+  margin: 15px;
+  margin-left: 0.5px;
+  padding: 10px;
+  display: inline-block;
+  position: fixed;
+  width: 250px;
+}
+.cmlg .cmlg-content{
+  font-family: sans-serif , arial;
+  font-size: large;
+  text-align: justify;
+  list-style-type: circle;
+  padding-right: 30px;
+}
