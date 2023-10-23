@@ -18,10 +18,10 @@ function InfoPers(props: Cvprops) {
                 <li>Lieu de naissance: {props.bloca}</li>
                 <li>Situation Familiale: {props.sf}</li>
             </ul>
-            <a href="https://www.linkedin.com" target="_blank"><i className="fa fa-linkedin-square" id="linkedin" >Linkedin</i><br></br></a>
-            <a href="https://www.github.com" target="_blank"><i className="fa fa-github-square"id="github">Github</i><br></br></a>
-            <a href="https://www.twitter.com" target="_blank"><i className="fa fa-twitter-square"id="twitter">Twitter</i><br></br></a>
-            <a href="mailto:salahexample@gmail.com" target="_blank"><i className="material-icons" id="mail">mail</i><br></br></a>
+            <a href="https://www.linkedin.com" target="_blank"><i className="fa fa-linkedin-square" id="linkedin" ></i></a>
+            <a href="https://www.github.com" target="_blank"><i className="fa fa-github-square"id="github"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i className="fa fa-twitter-square"id="twitter"></i></a>
+            <a href="mailto:salahexample@gmail.com" target="_blank"><i className="material-icons" id="mail">mail</i></a>
 
         </div>
     );
