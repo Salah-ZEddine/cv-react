@@ -1,4 +1,4 @@
-.card{
+.card {
   border: 1px solid whitesmoke;
   max-width: 300px;
   max-height: 600px;
@@ -9,39 +9,38 @@
   display: inline-block;
 }
 
-
-.card .card-pic{
+.card .card-pic {
   width: 200px;
   border-radius: 15px;
   border: 2px solid whitesmoke;
 }
-.card .infos{
-  font-family: sans-serif , arial;
+.card .infos {
+  font-family: sans-serif, arial;
   font-size: large;
   text-align: justify;
   list-style-type: circle;
 }
-#linkedin{
+#linkedin {
   font-size: 41px;
   color: midnightblue;
   padding: 5px;
 }
-#github{
+#github {
   font-size: 41px;
   color: black;
   padding: 5px;
 }
-#twitter{
+#twitter {
   font-size: 41px;
   color: rgb(146, 189, 246);
   padding: 5px;
 }
-#mail{
+#mail {
   font-size: 41px;
   color: red;
   padding: 5px;
 }
-.cmlg{
+.cmlg {
   border: 1px solid whitesmoke;
   max-width: 300px;
   max-height: 170px;
@@ -50,18 +49,18 @@
   margin-left: 0.5px;
   padding: 10px;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   width: 250px;
 }
-.cmlg .cmlg-content{
-  font-family: sans-serif , arial;
+.cmlg .cmlg-content {
+  font-family: sans-serif, arial;
   font-size: large;
   text-align: justify;
   list-style-type: circle;
   padding-right: 30px;
 }
 /*competences techniques*/
-.Cmtc{
+.Cmtc {
   border: 1px solid whitesmoke;
   max-width: 300px;
   max-height: 200px;
@@ -71,14 +70,31 @@
   padding: 10px;
   display: inline-block;
   position: static;
-  position:absolute;
+  position: absolute;
   top: 200px;
   width: 250px;
 }
-.Cmtc .Cmtc-content{
-  font-family: sans-serif , arial;
+.Cmtc .Cmtc-content {
+  font-family: sans-serif, arial;
   font-size: large;
   text-align: justify;
   list-style-type: circle;
   padding-right: 30px;
+}
+/*objectif professionnel*/
+.ObjProf {
+  border: 1px solid whitesmoke;
+  max-width: 600px;
+  max-height: 150px;
+  margin: 15px;
+  margin-left: 0.5px;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 650px;
+  width: auto;
+}
+.ObjProf .ObjProf-content {
+  font-family: sans-serif, arial;
+  font-size: large;
 }
