@@ -94,3 +94,39 @@
   font-family: sans-serif, arial;
   font-size: large;
 }
+.forma{
+  max-width: 600px;
+  max-height: 250px;
+  margin: 15px;
+  margin-left: 0.5px;
+  display: inline-block;
+  position: absolute;
+  left: 650px;
+  top: 210px;
+  width: auto;
+}
+.forma .forma-list{
+  font-family: sans-serif, arial;
+  font-size: large;
+  text-align: justify;
+  list-style-type: circle;
+}
+.Interet{
+  max-width: 600px;
+  max-height: 250px;
+  margin: 15px;
+  margin-left: 0.5px;
+  display: inline-block;
+  position: absolute;
+  left: 1300px;
+  width: auto;
+}
+.Interet .Interet-list{
+  font-family: sans-serif, arial;
+  font-size: large;
+  text-align: justify;
+  list-style-type: circle;
+}
+.footer{
+  text-align: center;
+}

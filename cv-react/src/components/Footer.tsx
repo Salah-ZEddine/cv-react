@@ -1,8 +1,8 @@
 function Footer(){
     return(
-        <footer>
+        <footer className="footer">
             <hr></hr>
-            <p>&copy; No copyrights </p>
+            <p>&copy; No copyrights Edité par HASSIK Salah-Eddine et EL HAFIANE Othman</p>
         </footer>
     );
 }
