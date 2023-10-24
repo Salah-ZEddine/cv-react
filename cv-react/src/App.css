@@ -41,7 +41,6 @@
   padding: 5px;
 }
 .cmlg {
-  border: 1px solid whitesmoke;
   max-width: 300px;
   max-height: 170px;
   text-align: center;
@@ -61,7 +60,6 @@
 }
 /*competences techniques*/
 .Cmtc {
-  border: 1px solid whitesmoke;
   max-width: 300px;
   max-height: 200px;
   text-align: center;
@@ -83,12 +81,10 @@
 }
 /*objectif professionnel*/
 .ObjProf {
-  border: 1px solid whitesmoke;
   max-width: 600px;
-  max-height: 150px;
+  max-height: 250px;
   margin: 15px;
   margin-left: 0.5px;
-  padding: 10px;
   display: inline-block;
   position: absolute;
   left: 650px;
