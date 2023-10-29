@@ -1,3 +1,4 @@
+import Cmlg from "./Cmlg";
 import Profile from "./assets/profilepic.jpg";
 
 type Cvprops = {
@@ -29,20 +30,22 @@ function InfoPers(props: Cvprops) {
           Mohammadia d'Ingénieurs (EMI).
         </li>
       </ul>
+      <Cmlg/>
       <a href="https://www.linkedin.com" target="_blank">
-        <i className="fa fa-linkedin-square" id="linkedin"></i>
+        <i className="fa fa-linkedin-square" id="linkedin"></i><br></br>
       </a>
       <a href="https://www.github.com" target="_blank">
-        <i className="fa fa-github-square" id="github"></i>
+        <i className="fa fa-github-square" id="github"></i><br></br>
       </a>
       <a href="https://www.twitter.com" target="_blank">
-        <i className="fa fa-twitter-square" id="twitter"></i>
+        <i className="fa fa-twitter-square" id="twitter"></i><br></br>
       </a>
       <a href="mailto:salahexample@gmail.com" target="_blank">
         <i className="material-icons" id="mail">
           mail
-        </i>
+        </i><br></br>
       </a>
+      
     </div>
   );
 }
