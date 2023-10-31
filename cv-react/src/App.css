@@ -65,6 +65,51 @@ body {
   bottom: 0;
   width: 100%;
 }
+/* Add hover effects */
+#linkedin, #github, #twitter, #mail {
+  transition: color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Update typography */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif; /* Example of a different font family */
+}
+/* Update the color scheme */
+body {
+  background-color: #f5f5f5;
+  color: #555;
+}
+
+.card, .section {
+  background-color: #ffffff;
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#linkedin, #github, #twitter, #mail {
+  color: #007bff; /* Primary color for social icons */
+}
+
+.footer {
+  background-color: #292b2c;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
