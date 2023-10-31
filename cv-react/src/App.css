@@ -1,129 +1,74 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Card Styles */
 .card {
-  border: 1px solid whitesmoke;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 300px;
-  max-height: 800px;
-  text-align: center;
   margin: 15px;
-  padding: 10px;
-  padding-top: 30px;
-  display: inline-block;
+  padding: 20px;
+  text-align: center;
 }
 
-.card .card-pic {
-  width: 200px;
-  border-radius: 15px;
-  border: 2px solid whitesmoke;
-}
-.card .infos {
-  font-family: sans-serif, arial;
-  font-size: large;
-  text-align: justify;
-  list-style-type: circle;
-}
-#linkedin {
-  font-size: 41px;
-  color: midnightblue;
-  padding: 5px;
-}
-#github {
-  font-size: 41px;
-  color: black;
-  padding: 5px;
-}
-#twitter {
-  font-size: 41px;
-  color: rgb(146, 189, 246);
-  padding: 5px;
-}
-#mail {
-  font-size: 41px;
-  color: red;
-  padding: 5px;
+.card-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
-.cmlg .cmlg-content {
-  font-family: sans-serif, arial;
-  font-size: large;
+.infos {
+  font-size: 16px;
   text-align: justify;
-  list-style-type: circle;
-  padding-right: 30px;
+  list-style-type: none;
+  padding: 0;
 }
-/*competences techniques*/
-.Cmtc {
-  max-width: 300px;
-  max-height: 200px;
-  text-align: center;
+
+/* Social Icons */
+#linkedin, #github, #twitter, #mail {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Section Styles */
+.section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
-  padding: 10px;
-  display: inline-block;
-  position: absolute;
-  top: 500px;
-  left: 370px;
-  width: 250px;
+  padding: 20px;
 }
-.Cmtc .Cmtc-content {
-  font-family: sans-serif, arial;
-  font-size: large;
-  text-align: justify;
-  list-style-type: circle;
-  padding-right: 30px;
+
+/* Background Image */
+.app {
+  background-image: url('./components/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
-/*objectif professionnel*/
-.ObjProf {
-  max-width: 600px;
-  max-height: 250px;
-  margin: 15px;
-  margin-left: 0.5px;
-  display: inline-block;
-  position: absolute;
-  left: 400px;
-  top: 20px;
-  width: auto;
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
 }
-.ObjProf .ObjProf-content {
-  font-family: sans-serif, arial;
-  font-size: large;
-}
-.forma{
-  max-width: 600px;
-  max-height: 250px;
-  margin: 15px;
-  margin-left: 0.5px;
-  display: inline-block;
-  position: absolute;
-  left: 400px;
-  top: 210px;
-  width: auto;
-}
-.forma .forma-list{
-  font-family: sans-serif, arial;
-  font-size: large;
-  text-align: justify;
-  list-style-type: circle;
-}
-.Interet{
-  max-width: 600px;
-  max-height: 250px;
-  margin: 15px;
-  margin-left: 0.5px;
-  display: inline-block;
-  position: absolute;
-  left: 670px;
-  top: 500px;
-  width: auto;
-}
-.Interet .Interet-list{
-  font-family: sans-serif, arial;
-  font-size: large;
-  text-align: justify;
-  list-style-type: circle;
-}
-.footer{
-  text-align: center;
-}
-.section{
-  border:  1px solid whitesmoke;
-}
-.app{
-  background-image: url('./components/assets/backgound\ 1.jpg');
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
 }
