@@ -20,8 +20,8 @@ function App() {
         <ObjProf />
         <Formation />
         <Interet />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
