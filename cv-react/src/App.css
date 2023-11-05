@@ -15,7 +15,6 @@ body {
   margin: 15px;
   padding: 20px;
   text-align: center;
-  width: 30%;
 }
 
 .card-pic {
@@ -44,14 +43,9 @@ body {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  position: absolute;
-  top: 0px;
-  left: 350px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
   padding: 20px;
-  width: 70%;
-  margin-left: 20px;
 }
 
 /* Background Image */
